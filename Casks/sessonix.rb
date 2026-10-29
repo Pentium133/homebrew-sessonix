@@ -1,14 +1,14 @@
 cask "sessonix" do
-  version "0.16.0"
+  version "0.16.3"
 
   on_arm do
     url "https://github.com/Pentium133/sessonix/releases/download/v#{version}/Sessonix_#{version}_aarch64.dmg"
-    sha256 "aac228e9d005d7ac5ccb477bc786a1211664b205bce22f6d2737298c3fddce0e"
+    sha256 "f3b5ffbc37542d53af166fa9d8470348c9d6416910aa50ae4f7ff521317db768"
   end
 
   on_intel do
     url "https://github.com/Pentium133/sessonix/releases/download/v#{version}/Sessonix_#{version}_x64.dmg"
-    sha256 "1d766c001d46cf20f6a84298ec15cc0a4bfc836f983db82e716b231badf723dc"
+    sha256 "699ae42a261ff4b08d5b420aa48f8261547b390187e062296eaf0d2a312ea000"
   end
 
   name "Sessonix"
